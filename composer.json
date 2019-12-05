@@ -1,0 +1,20 @@
+{
+    "name": "rodes/wp-web-framework",
+    "description": "This is a temporal description.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Roberto Rodes"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rodes\\": "",
+            "Rodes\\WpWebFrameworkExampleApp\\": "", 
+            "Rodes\\WpWebFramework\\": "WpWebFramework/"
+        }
+    }
+}
